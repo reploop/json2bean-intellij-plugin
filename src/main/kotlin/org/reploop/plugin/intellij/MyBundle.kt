@@ -1,4 +1,4 @@
-package com.github.georgecao.reploopparserjson2beanintellijplugin
+package org.reploop.plugin.intellij
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

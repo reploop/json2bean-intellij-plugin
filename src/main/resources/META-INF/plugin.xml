@@ -1,18 +1,18 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.georgecao.reploopparserjson2beanintellijplugin</id>
-    <name>reploop-parser-json2bean-intellij-plugin</name>
+    <id>org.reploop.plugin.intellij</id>
+    <name>json2bean-intellij-plugin</name>
     <vendor>georgecao</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.georgecao.reploopparserjson2beanintellijplugin.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.georgecao.reploopparserjson2beanintellijplugin.services.MyProjectService"/>
+        <applicationService serviceImplementation="org.reploop.plugin.intellij.services.MyApplicationService"/>
+        <projectService serviceImplementation="org.reploop.plugin.intellij.services.MyProjectService"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.georgecao.reploopparserjson2beanintellijplugin.listeners.MyProjectManagerListener"
+        <listener class="org.reploop.plugin.intellij.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
 </idea-plugin>

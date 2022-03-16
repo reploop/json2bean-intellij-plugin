@@ -1,7 +1,7 @@
-package com.github.georgecao.reploopparserjson2beanintellijplugin.services
+package org.reploop.plugin.intellij.services
 
 import com.intellij.openapi.project.Project
-import com.github.georgecao.reploopparserjson2beanintellijplugin.MyBundle
+import org.reploop.plugin.intellij.MyBundle
 
 class MyProjectService(project: Project) {
 

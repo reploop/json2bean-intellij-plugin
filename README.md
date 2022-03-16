@@ -1,4 +1,4 @@
-# reploop-parser-json2bean-intellij-plugin
+# json2bean-intellij-plugin
 
 ![Build](https://github.com/reploop/reploop-parser-json2bean-intellij-plugin/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)

@@ -1,6 +1,6 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# reploop-parser-json2bean-intellij-plugin Changelog
+# json2bean-intellij-plugin Changelog
 
 ## [Unreleased]
 ### Added
